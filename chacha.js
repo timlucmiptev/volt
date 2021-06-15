@@ -1,3 +1,4 @@
+// example usage
 const quarterround = (output, a, b, c, d) => {
   output[d] = rotl(output[d] ^ (output[a] += output[b]), 16)
   output[b] = rotl(output[b] ^ (output[c] += output[d]), 12)
